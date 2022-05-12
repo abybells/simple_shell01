@@ -45,5 +45,4 @@ typedef struct sev_t
 	char *shell_d;
 	char *arg0;
 
-	sev_t;
 #endif /* _SHELLVAR_H_ */
