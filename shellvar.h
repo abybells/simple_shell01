@@ -2,7 +2,7 @@
 #define _SHELLVAR_H_
 #include "shell.h"
 /**
- * struct sev_t - shell env vars
+ * struct sev_s - shell env vars
  * @skywalker: flag to continue or not continue with shell
  * @log: ptr to log link list for the current shell session
  * @log_cnt: num of log entries for the curent shell session
@@ -24,7 +24,7 @@
  * This one struct will be passed from func to func and contain
  * all the shell env vars for the current session.
  */
-typedef struct sev_t
+typedef struct sev_s
 {
 	int skywalker;
 	int ia_mode;
