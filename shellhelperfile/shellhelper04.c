@@ -22,7 +22,7 @@ void process_inputs(char *cmd, sev_t *sev)
 }
 
 /**
- * check_alias - check if alias exists
+ * checker_alias - check if alias exists
  * @sev: struct contain shell vars
  *
  * Description: Func check if an alias exist. If it does, the alias is
