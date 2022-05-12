@@ -8,17 +8,17 @@
 #define BUF_SIZE 4096
 
 /**
- * struct builtin_t - struct contain func name
+ * struct builtin - struct contain func name
  * @funcname: name of func
  * @func: func to be called when name is invoked
  *
  * Description: struct of func name and its respective func
  */
-typedef struct builtin_t
+typedef struct builtin
 {
  char *funcname;
  void (*func)(sev_t *);
-} builtin_t;
+} builtin;
 
 /* builtin01.c */
 void exit_sh(sev_t *sev);
