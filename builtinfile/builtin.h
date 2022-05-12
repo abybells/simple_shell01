@@ -18,7 +18,7 @@ typedef struct builtin
 {
  char *funcname;
  void (*func)(sev_t *);
-} builtin_t;
+} builtin;
 
 /* builtin01.c */
 void exit_sh(sev_t *sev);
