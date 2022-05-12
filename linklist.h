@@ -13,9 +13,9 @@
  */
 typedef struct list_s
 {
-  void *key;
-  void *value;
-  struct list_s *next;
+ void *key;
+ void *value;
+ struct list_s *next;
 } list_t;
 
 /* linklist01.c */
